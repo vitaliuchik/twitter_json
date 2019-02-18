@@ -20,7 +20,7 @@ def search(user, key):
     return result
 
 
-file = open('nasa1.json', encoding='utf-8')
+file = open('nasa.json', encoding='utf-8')
 nasa = json.load(file)
 file.close()
 
